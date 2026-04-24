@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NiSai Memories</title>
+  <title>Nisai Memories</title>
   <style>
     body {
-      font-family: Arial;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
       text-align: center;
-      background: black;
-      color: white;
+      padding: 30px;
     }
+
+    .profile img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
     h1 {
-      margin-top: 40px;
+      margin: 10px 0;
     }
-    a {
+
+    p {
+      color: gray;
+      margin-bottom: 30px;
+    }
+
+    .btn {
       display: block;
-      margin: 15px;
-      padding: 12px;
-      background: white;
-      color: black;
+      width: 260px;
+      margin: 12px auto;
+      padding: 14px;
+      border-radius: 12px;
       text-decoration: none;
-      border-radius: 10px;
-      width: 220px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    a:hover {
-      background: gray;
+      font-weight: bold;
       color: white;
+    }
+
+    .telegram { background: #2AABEE; }
+    .facebook { background: #1877F2; }
+    .tiktok { background: black; }
+
+    .btn:hover {
+      opacity: 0.85;
     }
   </style>
 </head>
 <body>
 
-  <h1>NiSai Memories</h1>
+  <div class="profile">
+    <img src="https://via.placeholder.com/100" alt="profile">
+    <h1>Nisai Memories</h1>
+    <p>Update your bio here</p>
+  </div>
 
-  <a href="https://t.me/Tobota8334">Telegram</a>
-  <a href="https://www.tiktok.com/@madebybota">TikTOk</a>
-  <a href="https://www.facebook.com/your.g.22">Facebook</a>
+  <a class="btn telegram" href="https://t.me/Tobota8334">Telegram</a>
+  <a class="btn facebook" href="https://facebook.com/yourusername">Facebook</a>
+  <a class="btn tiktok" href="https://tiktok.com/@yourusername">TikTok</a>
 
 </body>
 </html>
